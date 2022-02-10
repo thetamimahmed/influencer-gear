@@ -1,0 +1,30 @@
+/* google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500;700&display=swap');
+
+/* common styles */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lora', serif;
+}
+/* header section styles */
+header{
+    width: 80%;
+    margin: 0 auto;
+    padding:40px 0px ;
+}
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.header-nav ul {
+    display: flex;
+}
+.header-nav ul li{
+    list-style: none;
+    margin: 0px 25px;
+}
+.header-nav ul li a{
+    text-decoration: none;
+    color: black;
+}
