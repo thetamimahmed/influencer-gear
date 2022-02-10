@@ -149,3 +149,47 @@ header{
     text-align: right;
     margin-top: 40px;
 }
+/* subscribe section styles */
+.subscribe-section{
+    padding-bottom: 50px ;
+}
+.subscribe-container{
+    background-image: url('../images/gadgets.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.subscribe-title{
+    color:white;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+#email{
+    width: 60%;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    border: 3px solid #3A3A3A;
+}
+.subscribe-btn{
+    background-color:#E02C6D;
+    padding: 10px 20px;
+    border:none;
+    margin-top: 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.subscribe-btn a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+.subscribe-btn:hover{
+    background-color: black;
+}
