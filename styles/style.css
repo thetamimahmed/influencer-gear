@@ -57,6 +57,7 @@ header{
     border: none;
     padding: 10px 24px;
     border-radius: 40px;
+    transition: 0.3s;
 }
 .top-button a{
     text-decoration: none;
@@ -65,12 +66,20 @@ header{
 }
 .top-button:hover{
     background-color: black;
-    transition: 0.3s;
 }
 .top-sec-img{
     width: 400px;
+    transition: all 0.3s ease-in-out;
 }
 .top-sec-img:hover{
     transform: scale(1.1);
-    transition: 0.3s ease-in-out;
+    
+}
+/* sponsors section styles */
+.sponsor-section{
+    padding: 50px 0px;
+}
+.sponsors{
+    display: flex;
+    justify-content: space-between;
 }
