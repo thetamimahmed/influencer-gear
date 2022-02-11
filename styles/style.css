@@ -79,6 +79,12 @@ header{
 .sponsor-section{
     padding: 50px 0px;
 }
+hr{
+    margin: 40px 0px;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
 .sponsors{
     display: flex;
     justify-content: space-between;
@@ -96,6 +102,7 @@ header{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 30px;
+    
 }
 .product{
     width: 330px;
@@ -222,6 +229,9 @@ footer{
 /*----------------------
  media query styles
  -----------------------*/
+
+ /* mobile devices resposive */
+
 @media only screen and (max-width:688px) {
     header{
         width: 100%;
@@ -254,24 +264,48 @@ footer{
     .top-sec-img{
         width: 300px;
     }
-    .sponsor-section{
-        display: flex;
-        justify-content: center;
-    }
     .sponsors{
         display: grid;
         grid-template-columns: repeat(3,1fr);
         grid-row-gap: 20px;
         grid-column-gap: 10px;
+        justify-items: center;
     }
     .products{
-        display: grid;
         grid-template-columns: repeat(1,1fr);
-        display: flex;
+        justify-items: center;
+    }
+    .footer-title{
+        font-size: 25px;
+    }
+}
+/* tablet and ipad resonsive */
+
+@media only screen and (min-width:689px) and (max-width:992px) {
+    header{
+        width: 100%;
+    }
+    .header-nav{
         flex-direction: column;
         align-items: center;
     }
-    .subscribe-title{
-        font-size: 24px;
+    .logo-name{
+        margin-bottom: 10px;
+    }
+    main{
+        width: 100%;
+    }
+    .top-section{
+        justify-content: center;
+    }
+    .sponsors{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-row-gap: 10px;
+        justify-items: center;
+    }
+    .products{
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
     }
 }
